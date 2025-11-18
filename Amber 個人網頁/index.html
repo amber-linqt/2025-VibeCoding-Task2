@@ -139,7 +139,7 @@
       }
 
       /* 響應式：確保在 320 / 768 / 1440 窗口寬度下無水平捲動 */
-      @media (max-width: 900px) {
+      @media (max-width: 320px) {
         .hero {
           grid-template-columns: 1fr;
         }
@@ -152,7 +152,7 @@
         }
       }
 
-      @media (max-width: 480px) {
+      @media (max-width: 768px) {
         header {
           flex-direction: column;
           align-items: flex-start;
@@ -167,7 +167,7 @@
         }
       }
 
-      @media (min-width: 1200px) {
+      @media (min-width: 1400px) {
         .hero .intro h1 {
           font-size: 2rem;
         }
@@ -196,8 +196,8 @@
 
         <nav aria-label="主選單">
           <a href="#about">關於我</a>
-          <a href="#projects">專案</a>
-          <a href="#contact">聯絡</a>
+          <a href="#projects">我的專案</a>
+          <a href="#contact">聯絡方式</a>
           <a href="https://github.com/amber" target="_blank" rel="noopener"
             >GitHub</a
           >
